@@ -1,0 +1,1 @@
+const api_base_url = "https://countries.trevorblades.com/graphql"
