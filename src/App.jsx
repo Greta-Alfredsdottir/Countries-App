@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import { Header } from './componenter/header'
-import { Footer } from './componenter/footer'
+
 
 
 function App() {
@@ -8,9 +7,7 @@ function App() {
 
   return (
     <>
-    <Header/>
-    
-    <Footer/>
+   
     </>
   )
 }

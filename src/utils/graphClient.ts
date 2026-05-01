@@ -1,3 +1,8 @@
+/// <reference types="vite/client" />
 import { GraphQLClient } from 'graphql-request'
+const endpoint = import.meta.env.VITE_GRAPH_ENDPOINT as string;
 
-export const graphClient = new GraphQLClient(import.meta.env.VITE_PUBLIC_GRAPH_ENDPOINT)
+if (!endpoint) {
+    throw new Error('missing VITE_GRAPH_ENDPOINT in .env');
+}
+export const graphClient = new GraphQLClient(endpoint)

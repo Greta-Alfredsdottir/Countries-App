@@ -3,7 +3,10 @@ export function Footer() {
 
   return (
     <>
-    <footer>Goodbye countries</footer>
+    <footer>
+      <h3>Greta</h3>
+      https://countries.trevorblades.com/graphql
+    </footer>
 
 
     </>
