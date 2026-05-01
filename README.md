@@ -1,6 +1,8 @@
 # Countries-App
 En app som henter alle lande
 
+Med hjælp fra Jack
+
 I skal i denne opgave bygge en Countries Applikation med GraphQL. Formålet med opgaven er at lære at bruge queries i GraphQL til at hente data fra et GraphQL baseret API. 
 
 
