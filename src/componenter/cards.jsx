@@ -1,6 +1,7 @@
 
 // Her mapper vi på language og native language, 
 // Dette bliver vist på cards
+// med hjælp fra Jack
 export function Cards({country, onselect}) {
   const Language = (country.Language ||[]) 
   .map((Language) => Language.name ?? Language.native)
