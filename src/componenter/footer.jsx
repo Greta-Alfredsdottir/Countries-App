@@ -5,7 +5,7 @@ export function Footer() {
     <>
     <footer>
       <h3>Greta</h3>
-      https://countries.trevorblades.com/graphql
+     <a href=" https://countries.trevorblades.com/graphql"> Countries Graph API</a>
     </footer>
 
 
